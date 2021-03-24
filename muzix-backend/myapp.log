@@ -3040,3 +3040,205 @@ Identify and stop the process that's listening on port 4000 or configure this ap
 2021-03-24 19:07:59.993  INFO 33440 --- [http-nio-4000-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:375}] to localhost:27017
 2021-03-24 19:08:03.932  WARN 33440 --- [http-nio-4000-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
  at [Source: (PushbackInputStream); line: 1, column: 181] (through reference chain: com.app.muzix.model.Favourite["artists"]->java.util.ArrayList[0])]
+2021-03-24 19:53:55.399  INFO 35240 --- [restartedMain] com.app.muzix.MuzixApplication           : Starting MuzixApplication using Java 1.8.0_281 on DESKTOP-SPI0CUL with PID 35240 (C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend\target\classes started by TinkumoniKalita in C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend)
+2021-03-24 19:53:55.408  INFO 35240 --- [restartedMain] com.app.muzix.MuzixApplication           : No active profile set, falling back to default profiles: default
+2021-03-24 19:53:55.533  INFO 35240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 19:53:55.534  INFO 35240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-24 19:53:56.667  INFO 35240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-03-24 19:53:56.757  INFO 35240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 0 Reactive MongoDB repository interfaces.
+2021-03-24 19:53:56.768  INFO 35240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-24 19:53:56.811  INFO 35240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 MongoDB repository interfaces.
+2021-03-24 19:53:57.840  INFO 35240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2021-03-24 19:53:57.857  INFO 35240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 19:53:57.858  INFO 35240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 19:53:58.161  INFO 35240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 19:53:58.163  INFO 35240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2627 ms
+2021-03-24 19:53:58.547  INFO 35240 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 19:53:58.637  INFO 35240 --- [cluster-ClusterId{value='605b4b7e28428269728fe1a3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:380}] to localhost:27017
+2021-03-24 19:53:58.637  INFO 35240 --- [cluster-rtt-ClusterId{value='605b4b7e28428269728fe1a3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:379}] to localhost:27017
+2021-03-24 19:53:58.637  INFO 35240 --- [cluster-ClusterId{value='605b4b7e28428269728fe1a3', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32446200}
+2021-03-24 19:53:58.859  WARN 35240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-03-24 19:53:59.804  INFO 35240 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:54:00.208  INFO 35240 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 19:54:00.287  INFO 35240 --- [cluster-rtt-ClusterId{value='605b4b8028428269728fe1a4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:381}] to localhost:27017
+2021-03-24 19:54:00.287  INFO 35240 --- [cluster-ClusterId{value='605b4b8028428269728fe1a4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:382}] to localhost:27017
+2021-03-24 19:54:00.289  INFO 35240 --- [cluster-ClusterId{value='605b4b8028428269728fe1a4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20326200}
+2021-03-24 19:54:00.568  WARN 35240 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 4000 is already in use
+2021-03-24 19:54:00.587  INFO 35240 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:54:00.597  INFO 35240 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-03-24 19:54:00.621  INFO 35240 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-24 19:54:00.654 ERROR 35240 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 4000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 4000 or configure this application to listen on another port.
+
+2021-03-24 19:54:41.025  INFO 43776 --- [restartedMain] com.app.muzix.MuzixApplication           : Starting MuzixApplication using Java 1.8.0_281 on DESKTOP-SPI0CUL with PID 43776 (C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend\target\classes started by TinkumoniKalita in C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend)
+2021-03-24 19:54:41.028  INFO 43776 --- [restartedMain] com.app.muzix.MuzixApplication           : No active profile set, falling back to default profiles: default
+2021-03-24 19:54:41.090  INFO 43776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 19:54:41.091  INFO 43776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-24 19:54:41.916  INFO 43776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-03-24 19:54:41.979  INFO 43776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 0 Reactive MongoDB repository interfaces.
+2021-03-24 19:54:41.986  INFO 43776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-24 19:54:42.017  INFO 43776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 MongoDB repository interfaces.
+2021-03-24 19:54:42.811  INFO 43776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2021-03-24 19:54:42.826  INFO 43776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 19:54:42.828  INFO 43776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 19:54:43.047  INFO 43776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 19:54:43.047  INFO 43776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1955 ms
+2021-03-24 19:54:43.224  INFO 43776 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 19:54:43.308  INFO 43776 --- [cluster-rtt-ClusterId{value='605b4babf577164fa348fbab', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:384}] to localhost:27017
+2021-03-24 19:54:43.308  INFO 43776 --- [cluster-ClusterId{value='605b4babf577164fa348fbab', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:383}] to localhost:27017
+2021-03-24 19:54:43.309  INFO 43776 --- [cluster-ClusterId{value='605b4babf577164fa348fbab', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27027000}
+2021-03-24 19:54:43.465  INFO 43776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 19:54:44.236  INFO 43776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 19:54:44.430  INFO 43776 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 19:54:44.474  INFO 43776 --- [cluster-rtt-ClusterId{value='605b4bacf577164fa348fbac', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:385}] to localhost:27017
+2021-03-24 19:54:44.475  INFO 43776 --- [cluster-ClusterId{value='605b4bacf577164fa348fbac', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:386}] to localhost:27017
+2021-03-24 19:54:44.476  INFO 43776 --- [cluster-ClusterId{value='605b4bacf577164fa348fbac', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14392900}
+2021-03-24 19:54:44.597  INFO 43776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2021-03-24 19:54:44.610  INFO 43776 --- [restartedMain] com.app.muzix.MuzixApplication           : Started MuzixApplication in 4.325 seconds (JVM running for 5.685)
+2021-03-24 19:54:52.155  INFO 43776 --- [http-nio-4000-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 19:54:52.155  INFO 43776 --- [http-nio-4000-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 19:54:52.158  INFO 43776 --- [http-nio-4000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-24 19:54:52.365  INFO 43776 --- [http-nio-4000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:388}] to localhost:27017
+2021-03-24 19:54:52.367  INFO 43776 --- [http-nio-4000-exec-6] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:387}] to localhost:27017
+2021-03-24 19:54:52.370  INFO 43776 --- [http-nio-4000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:389}] to localhost:27017
+2021-03-24 19:54:52.370  INFO 43776 --- [http-nio-4000-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:390}] to localhost:27017
+2021-03-24 19:54:52.378  INFO 43776 --- [http-nio-4000-exec-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:391}] to localhost:27017
+2021-03-24 19:54:52.380  INFO 43776 --- [http-nio-4000-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:392}] to localhost:27017
+2021-03-24 20:06:03.866  INFO 32724 --- [restartedMain] com.app.muzix.MuzixApplication           : Starting MuzixApplication using Java 1.8.0_281 on DESKTOP-SPI0CUL with PID 32724 (C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend\target\classes started by TinkumoniKalita in C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend)
+2021-03-24 20:06:03.870  INFO 32724 --- [restartedMain] com.app.muzix.MuzixApplication           : No active profile set, falling back to default profiles: default
+2021-03-24 20:06:03.935  INFO 32724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 20:06:03.935  INFO 32724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-24 20:06:04.790  INFO 32724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-03-24 20:06:04.843  INFO 32724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 0 Reactive MongoDB repository interfaces.
+2021-03-24 20:06:04.848  INFO 32724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-24 20:06:04.873  INFO 32724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 MongoDB repository interfaces.
+2021-03-24 20:06:05.620  INFO 32724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2021-03-24 20:06:05.635  INFO 32724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 20:06:05.636  INFO 32724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 20:06:05.941  INFO 32724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 20:06:05.942  INFO 32724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2005 ms
+2021-03-24 20:06:06.334  INFO 32724 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 20:06:06.420  INFO 32724 --- [cluster-rtt-ClusterId{value='605b4e56bd13250d2f98739e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:399}] to localhost:27017
+2021-03-24 20:06:06.420  INFO 32724 --- [cluster-ClusterId{value='605b4e56bd13250d2f98739e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:398}] to localhost:27017
+2021-03-24 20:06:06.421  INFO 32724 --- [cluster-ClusterId{value='605b4e56bd13250d2f98739e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=31884100}
+2021-03-24 20:06:06.676  INFO 32724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 20:06:07.334  INFO 32724 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 20:06:07.546  INFO 32724 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 20:06:07.589  INFO 32724 --- [cluster-rtt-ClusterId{value='605b4e57bd13250d2f98739f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:400}] to localhost:27017
+2021-03-24 20:06:07.589  INFO 32724 --- [cluster-ClusterId{value='605b4e57bd13250d2f98739f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:401}] to localhost:27017
+2021-03-24 20:06:07.591  INFO 32724 --- [cluster-ClusterId{value='605b4e57bd13250d2f98739f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13607700}
+2021-03-24 20:06:07.710  INFO 32724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2021-03-24 20:06:07.728  INFO 32724 --- [restartedMain] com.app.muzix.MuzixApplication           : Started MuzixApplication in 4.428 seconds (JVM running for 5.921)
+2021-03-24 20:06:13.214  INFO 32724 --- [http-nio-4000-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 20:06:13.215  INFO 32724 --- [http-nio-4000-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 20:06:13.218  INFO 32724 --- [http-nio-4000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-24 20:06:13.503  INFO 32724 --- [http-nio-4000-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:402}] to localhost:27017
+2021-03-24 20:06:13.504  INFO 32724 --- [http-nio-4000-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:403}] to localhost:27017
+2021-03-24 20:06:13.505  INFO 32724 --- [http-nio-4000-exec-6] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:404}] to localhost:27017
+2021-03-24 20:06:13.505  INFO 32724 --- [http-nio-4000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:405}] to localhost:27017
+2021-03-24 20:06:13.507  INFO 32724 --- [http-nio-4000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:407}] to localhost:27017
+2021-03-24 20:06:13.508  INFO 32724 --- [http-nio-4000-exec-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:406}] to localhost:27017
+2021-03-24 20:06:33.859  INFO 32724 --- [http-nio-4000-exec-10] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:07:03.907  INFO 14256 --- [restartedMain] com.app.muzix.MuzixApplication           : Starting MuzixApplication using Java 1.8.0_281 on DESKTOP-SPI0CUL with PID 14256 (C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend\target\classes started by TinkumoniKalita in C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend)
+2021-03-24 20:07:03.911  INFO 14256 --- [restartedMain] com.app.muzix.MuzixApplication           : No active profile set, falling back to default profiles: default
+2021-03-24 20:07:04.011  INFO 14256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 20:07:04.012  INFO 14256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-24 20:07:04.831  INFO 14256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-03-24 20:07:04.890  INFO 14256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 0 Reactive MongoDB repository interfaces.
+2021-03-24 20:07:04.898  INFO 14256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-24 20:07:04.930  INFO 14256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 MongoDB repository interfaces.
+2021-03-24 20:07:05.926  INFO 14256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2021-03-24 20:07:05.941  INFO 14256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 20:07:05.942  INFO 14256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 20:07:06.144  INFO 14256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 20:07:06.145  INFO 14256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2130 ms
+2021-03-24 20:07:06.329  INFO 14256 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 20:07:06.382  INFO 14256 --- [cluster-rtt-ClusterId{value='605b4e922d47163880cf43ee', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:408}] to localhost:27017
+2021-03-24 20:07:06.382  INFO 14256 --- [cluster-ClusterId{value='605b4e922d47163880cf43ee', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:409}] to localhost:27017
+2021-03-24 20:07:06.382  INFO 14256 --- [cluster-ClusterId{value='605b4e922d47163880cf43ee', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18709000}
+2021-03-24 20:07:06.605  INFO 14256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 20:07:07.339  INFO 14256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 20:07:07.510  INFO 14256 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 20:07:07.574  INFO 14256 --- [cluster-rtt-ClusterId{value='605b4e932d47163880cf43ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:411}] to localhost:27017
+2021-03-24 20:07:07.574  INFO 14256 --- [cluster-ClusterId{value='605b4e932d47163880cf43ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:410}] to localhost:27017
+2021-03-24 20:07:07.576  INFO 14256 --- [cluster-ClusterId{value='605b4e932d47163880cf43ef', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21191900}
+2021-03-24 20:07:07.773  INFO 14256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2021-03-24 20:07:07.804  INFO 14256 --- [restartedMain] com.app.muzix.MuzixApplication           : Started MuzixApplication in 4.48 seconds (JVM running for 5.86)
+2021-03-24 20:07:15.645  INFO 14256 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 20:07:15.646  INFO 14256 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 20:07:15.648  INFO 14256 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-24 20:07:15.962  INFO 14256 --- [http-nio-4000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:412}] to localhost:27017
+2021-03-24 20:07:15.987  INFO 14256 --- [http-nio-4000-exec-1] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:07:27.240  INFO 14256 --- [http-nio-4000-exec-2] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:10:01.386  INFO 14256 --- [http-nio-4000-exec-5] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:10:07.108  INFO 14256 --- [http-nio-4000-exec-6] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:10:23.760  INFO 14256 --- [http-nio-4000-exec-7] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:10:28.212  INFO 14256 --- [http-nio-4000-exec-8] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:12:00.913  INFO 14256 --- [http-nio-4000-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:413}] to localhost:27017
+2021-03-24 20:12:00.916  INFO 14256 --- [http-nio-4000-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:416}] to localhost:27017
+2021-03-24 20:12:00.917  INFO 14256 --- [http-nio-4000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:415}] to localhost:27017
+2021-03-24 20:12:00.922  INFO 14256 --- [http-nio-4000-exec-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:414}] to localhost:27017
+2021-03-24 20:19:08.935  INFO 14256 --- [http-nio-4000-exec-10] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:19:33.183  INFO 14256 --- [http-nio-4000-exec-10] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:19:34.697  INFO 14256 --- [http-nio-4000-exec-1] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:19:43.548  INFO 14256 --- [http-nio-4000-exec-8] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:19:44.836  INFO 14256 --- [http-nio-4000-exec-9] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:19:49.013  INFO 14256 --- [http-nio-4000-exec-3] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:19:50.373  INFO 14256 --- [http-nio-4000-exec-2] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:23:16.453  INFO 44696 --- [restartedMain] com.app.muzix.MuzixApplication           : Starting MuzixApplication using Java 1.8.0_281 on DESKTOP-SPI0CUL with PID 44696 (C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend\target\classes started by TinkumoniKalita in C:\Users\TinkumoniKalita\IdeaProjects\project\muzix-backend)
+2021-03-24 20:23:16.461  INFO 44696 --- [restartedMain] com.app.muzix.MuzixApplication           : No active profile set, falling back to default profiles: default
+2021-03-24 20:23:16.590  INFO 44696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-24 20:23:16.590  INFO 44696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-24 20:23:18.382  INFO 44696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-03-24 20:23:18.493  INFO 44696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 0 Reactive MongoDB repository interfaces.
+2021-03-24 20:23:18.516  INFO 44696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-24 20:23:18.575  INFO 44696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 MongoDB repository interfaces.
+2021-03-24 20:23:19.728  INFO 44696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2021-03-24 20:23:19.749  INFO 44696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 20:23:19.752  INFO 44696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 20:23:20.034  INFO 44696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 20:23:20.034  INFO 44696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3441 ms
+2021-03-24 20:23:20.327  INFO 44696 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 20:23:20.425  INFO 44696 --- [cluster-rtt-ClusterId{value='605b5260612ae01a03afa125', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:424}] to localhost:27017
+2021-03-24 20:23:20.425  INFO 44696 --- [cluster-ClusterId{value='605b5260612ae01a03afa125', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:423}] to localhost:27017
+2021-03-24 20:23:20.427  INFO 44696 --- [cluster-ClusterId{value='605b5260612ae01a03afa125', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=39120800}
+2021-03-24 20:23:20.756  INFO 44696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-24 20:23:21.490  INFO 44696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 20:23:21.696  INFO 44696 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-24 20:23:21.730  INFO 44696 --- [cluster-ClusterId{value='605b5261612ae01a03afa126', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:425}] to localhost:27017
+2021-03-24 20:23:21.730  INFO 44696 --- [cluster-rtt-ClusterId{value='605b5261612ae01a03afa126', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:426}] to localhost:27017
+2021-03-24 20:23:21.732  INFO 44696 --- [cluster-ClusterId{value='605b5261612ae01a03afa126', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9340400}
+2021-03-24 20:23:21.839  INFO 44696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2021-03-24 20:23:21.857  INFO 44696 --- [restartedMain] com.app.muzix.MuzixApplication           : Started MuzixApplication in 6.702 seconds (JVM running for 9.988)
+2021-03-24 20:23:32.224  INFO 44696 --- [http-nio-4000-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 20:23:32.224  INFO 44696 --- [http-nio-4000-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 20:23:32.227  INFO 44696 --- [http-nio-4000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-24 20:23:32.420  INFO 44696 --- [http-nio-4000-exec-6] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:428}] to localhost:27017
+2021-03-24 20:23:32.420  INFO 44696 --- [http-nio-4000-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:427}] to localhost:27017
+2021-03-24 20:23:32.421  INFO 44696 --- [http-nio-4000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:429}] to localhost:27017
+2021-03-24 20:23:32.422  INFO 44696 --- [http-nio-4000-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:430}] to localhost:27017
+2021-03-24 20:23:32.423  INFO 44696 --- [http-nio-4000-exec-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:431}] to localhost:27017
+2021-03-24 20:23:32.424  INFO 44696 --- [http-nio-4000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:432}] to localhost:27017
+2021-03-24 20:23:38.501  INFO 44696 --- [http-nio-4000-exec-4] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:23:40.356  INFO 44696 --- [http-nio-4000-exec-6] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:24:59.635  INFO 44696 --- [http-nio-4000-exec-8] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:26:07.149  INFO 44696 --- [http-nio-4000-exec-10] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:27:36.966  INFO 44696 --- [http-nio-4000-exec-9] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:27:39.116  INFO 44696 --- [http-nio-4000-exec-10] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:28:00.877  INFO 44696 --- [http-nio-4000-exec-4] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:28:12.314  INFO 44696 --- [http-nio-4000-exec-8] com.app.muzix.service.FavouriteService   : true
+2021-03-24 20:28:18.652  INFO 44696 --- [http-nio-4000-exec-7] com.app.muzix.service.FavouriteService   : false
+2021-03-24 20:28:20.778  INFO 44696 --- [http-nio-4000-exec-9] com.app.muzix.service.FavouriteService   : false

@@ -22,6 +22,9 @@ public class FavouriteService {
   }
 
   public Favourite addToFavourites(Favourite f){
+    if(checkFavourite(f.getAlbumId(), f.getUserId()))
+    log.info("true");
+    else log.info("false");
     if(!checkFavourite(f.getAlbumId(), f.getUserId())){
       return repository.save(f);
     }else{
