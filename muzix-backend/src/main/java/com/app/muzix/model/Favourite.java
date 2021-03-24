@@ -3,32 +3,27 @@ package com.app.muzix.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Document("Favourite")
 public class Favourite {
 
   @Id
   private String id;
-  private String name;
-  private String album;
   private String albumId;
-  private String url;
-  private String username;
+  private String name;
+  private String image;
+  private ArrayList<String> artists;
+  private String userId;
 
-  public Favourite(String id, String name, String album, String albumId, String url, String username) {
+  public Favourite(String id, String albumId, String name, String image, ArrayList<String> artists, String userId) {
     this.id = id;
+    this.albumId = albumId;
     this.name = name;
-    this.album = album;
-    this.albumId = albumId;
-    this.url = url;
-    this.username = username;
-  }
-
-  public String getAlbumId() {
-    return albumId;
-  }
-
-  public void setAlbumId(String albumId) {
-    this.albumId = albumId;
+    this.image = image;
+    this.artists = artists;
+    this.userId = userId;
   }
 
   public String getId() {
@@ -39,12 +34,12 @@ public class Favourite {
     this.id = id;
   }
 
-  public String getUsername() {
-    return username;
+  public String getAlbumId() {
+    return albumId;
   }
 
-  public void setUsername(String username) {
-    this.username = username;
+  public void setAlbumId(String albumId) {
+    this.albumId = albumId;
   }
 
   public String getName() {
@@ -55,20 +50,27 @@ public class Favourite {
     this.name = name;
   }
 
-  public String getAlbum() {
-    return album;
+  public String getImage() {
+    return image;
   }
 
-  public void setAlbum(String album) {
-    this.album = album;
+  public void setImage(String image) {
+    this.image = image;
   }
 
-  public String getUrl() {
-    return url;
+  public ArrayList<String> getArtists() {
+    return artists;
   }
 
-  public void setUrl(String url) {
-    this.url = url;
+  public void setArtists(ArrayList<String> artists) {
+    this.artists = artists;
   }
 
+  public String getUserId() {
+    return userId;
+  }
+
+  public void setUserId(String userId) {
+    this.userId = userId;
+  }
 }

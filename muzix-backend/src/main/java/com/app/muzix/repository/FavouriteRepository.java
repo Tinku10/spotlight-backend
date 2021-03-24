@@ -8,7 +8,9 @@ import java.util.ArrayList;
 
 @Repository
 public interface FavouriteRepository extends MongoRepository<Favourite, String> {
-  public ArrayList<Favourite> findByUsername(String username);
+  public ArrayList<Favourite> findByUserId(String username);
 
-  public boolean findByAlbumId(String id);
+  public boolean existsByAlbumIdAndUserId(String albumId, String userId);
+  public Favourite deleteByAlbumIdAndUserId(String albumId, String userId);
+
 }

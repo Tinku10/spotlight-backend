@@ -2,12 +2,17 @@ package com.app.muzix.controller;
 
 import com.app.muzix.model.Favourite;
 import com.app.muzix.service.FavouriteService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 @RestController
+@CrossOrigin
+@Slf4j
 public class FovouriteController {
 
   @Autowired
@@ -23,8 +28,8 @@ public class FovouriteController {
     return this.favouriteService.getFavourites(userId);
   }
 
-  @GetMapping("/check/{id}")
-  public boolean checkFavourites(@PathVariable String id){
-    return this.favouriteService.checkFavourite(id);
+  @GetMapping("/check")
+  public boolean checkFavourites(@RequestParam("albumId") String albumId, @RequestParam("userId") String userId){
+    return this.favouriteService.checkFavourite(albumId, userId);
   }
 }
